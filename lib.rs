@@ -14,13 +14,12 @@ mod raffle {
     const MAXIMUM_TOKEN: Balance = 100000000000000;
 
     // Using u32 because Raffle winners is vec where calling len returns u32
-    const WINNERS_COUNT: u32 = 5;
-    const PLAYER_REQUIRED_TO_START: u32 = 4;
+    const WINNERS_COUNT: u32 = 2;
+    const PLAYER_REQUIRED_TO_START: u32 = 5;
 
     // Minimum Time for countdown which is 15 min = 15 * 60 * 1000 ms .
     // for testing i use 10000 ms or 10 sec
-    const COUNTDOWN_MINIMUM: u64 = 10_000;
-    //const COUNTDOWN_MINIMUM: u64 = 900_000;
+    const COUNTDOWN_MINIMUM: u64 = 900_000;
 
     #[ink(storage)]
     pub struct Charity {

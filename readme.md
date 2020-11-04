@@ -5,4 +5,6 @@
 ![](5.png)
 ![](6.png)
 ![](7.png)
-![](8.png)
+
+By the way while writing I found a bug:
+https://github.com/paritytech/ink/issues/568
